@@ -113,8 +113,8 @@ namespace BMP280 {
         dig_P7 = getInt16LE(0x9A)
         dig_P8 = getInt16LE(0x9C)
         dig_P9 = getInt16LE(0x9E)
-        setreg(0xF4, 0x2F)
-        setreg(0xF5, 0x0C)
+        setreg(0xF4, 0x57)
+        setreg(0xF5, 0x14)
         T = 0
         P = 0
     }
