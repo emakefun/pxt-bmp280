@@ -79,8 +79,8 @@ namespace BMP280 {
      * get pressure
      */
     //% blockId="BMP280_GET_PRESSURE" block="get pressure"
-    //% weight=80 blockGap=8
-    export function pressure(): number {
+    //% weight=86 blockGap=8
+    export function em_pressure(): number {
         get();
         return P;
     }
@@ -89,8 +89,8 @@ namespace BMP280 {
      * get temperature
      */
     //% blockId="BMP280_GET_TEMPERATURE" block="get temperature"
-    //% weight=80 blockGap=8
-    export function temperature(): number {
+    //% weight=87 blockGap=8
+    export function em_temperature(): number {
         get();
         return T;
     }
@@ -99,8 +99,8 @@ namespace BMP280 {
      * initBmp280
      */
     //% blockId="BMP280_init" block="init"
-    //% weight=61 blockGap=8
-    export function initBmp280() {
+    //% weight=89 blockGap=8
+    export function em_initBmp280() {
         dig_T1 = getUInt16LE(0x88)
         dig_T2 = getInt16LE(0x8A)
         dig_T3 = getInt16LE(0x8C)
@@ -123,8 +123,8 @@ namespace BMP280 {
      * set I2C address
      */
     //% blockId="BMP280_SET_ADDRESS" block="set address %addr"
-    //% weight=50 blockGap=8
-    export function Address(addr: BMP280_I2C_ADDRESS) {
+    //% weight=88 blockGap=8
+    export function em_bmp280_Address(addr: BMP280_I2C_ADDRESS) {
         BMP280_I2C_ADDR = addr
     }
 }

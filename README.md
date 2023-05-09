@@ -10,7 +10,7 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/emakefun/pxt-bmp280** and import
 
-## Edit this project ![Build status badge]()
+## Edit this project 
 
 To edit this repository in MakeCode.
 
