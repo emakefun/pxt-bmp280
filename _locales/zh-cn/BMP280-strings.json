@@ -1,6 +1,6 @@
 {
-	"BMP280.BMP280_GET_TEMPERATURE|block": "BMP280(I2C)获取温度",
-	"BMP280.BMP280_init|block": "初始化大气压传感器BMP280(I2C)",
-	"BMP280.BMP280_SET_ADDRESS|block": "设置BMP280传感器I2C通信地址",
-	"BMP280..BMP280_GET_PRESSURE|block": "BMP280(I2C)获取气压"
+	"BMP280.em_temperature|block": "BMP280(I2C)获取温度",
+	"BMP280.em_initBmp280|block": "初始化大气压传感器BMP280(I2C)",
+	"BMP280.em_bmp280_Address|block": "设置BMP280传感器I2C通信地址",
+	"BMP280.em_pressure|block": "BMP280(I2C)获取气压"
 }
