@@ -1,14 +1,14 @@
 {
-    "name": "pxt-bmp280",
+    "name": "BMP280",
     "version": "0.0.1",
-    "description": "",
+    "description": "Emakefun sensor BMP280",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
         "main.ts",
-        "/_locales/zh_cn/BMP280-strings.json"
+        "_locales/zh_cn/BMP280-strings.json"
     ],
     "testFiles": [
         "test.ts"
