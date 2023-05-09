@@ -29,5 +29,12 @@ This image may take a few minutes to refresh.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
-
 ## Example [Click to view](https://makecode.microbit.org/_4h2bHVd8L25z)
+```
+    BMP280.em_initBmp280()
+    BMP280.em_bmp280_Address(BMP280_I2C_ADDRESS.ADDR_0x76)
+    basic.forever(function () {
+        basic.showString("" + (BMP280.em_pressure()))
+        basic.showString("" + (BMP280.em_temperature()))
+    })
+```
