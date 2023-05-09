@@ -8,7 +8,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh_cn/BMP280-strings.json"
+        "_locales/zh-cn/BMP280-strings.json"
     ],
     "testFiles": [
         "test.ts"
